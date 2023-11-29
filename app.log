@@ -1,0 +1,522 @@
+DEBUG:PyQt5.uic.uiparser:uiname is MyClassDialogBase
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QDialog
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.uiparser:push QDialog MyClassDialogBase
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property orientation
+DEBUG:PyQt5.uic.properties:setting property standardButtons
+DEBUG:PyQt5.uic.uiparser:push QDialogButtonBox buttonBox
+DEBUG:PyQt5.uic.uiparser:pop widget QDialogButtonBox buttonBox
+DEBUG:PyQt5.uic.uiparser:new topwidget MyClassDialogBase
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QgsFieldComboBox pointFieldCBox
+DEBUG:PyQt5.uic.uiparser:pop widget QgsFieldComboBox pointFieldCBox
+DEBUG:PyQt5.uic.uiparser:new topwidget MyClassDialogBase
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget MyClassDialogBase
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QgsMapLayerComboBox sourceLayerCBox
+DEBUG:PyQt5.uic.uiparser:pop widget QgsMapLayerComboBox sourceLayerCBox
+DEBUG:PyQt5.uic.uiparser:new topwidget MyClassDialogBase
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget MyClassDialogBase
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QLabel label_3
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_3
+DEBUG:PyQt5.uic.uiparser:new topwidget MyClassDialogBase
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QLabel label_4
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_4
+DEBUG:PyQt5.uic.uiparser:new topwidget MyClassDialogBase
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QLineEdit nodefilename
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit nodefilename
+DEBUG:PyQt5.uic.uiparser:new topwidget MyClassDialogBase
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton nodebrowse
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton nodebrowse
+DEBUG:PyQt5.uic.uiparser:new topwidget MyClassDialogBase
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QgsMapLayerComboBox pointLayerCBox
+DEBUG:PyQt5.uic.uiparser:pop widget QgsMapLayerComboBox pointLayerCBox
+DEBUG:PyQt5.uic.uiparser:new topwidget MyClassDialogBase
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget MyClassDialogBase
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QgsMapLayerComboBox borderDescCBox
+DEBUG:PyQt5.uic.uiparser:pop widget QgsMapLayerComboBox borderDescCBox
+DEBUG:PyQt5.uic.uiparser:new topwidget MyClassDialogBase
+DEBUG:PyQt5.uic.uiparser:pop widget QDialog MyClassDialogBase
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:uiname is ExtractNodesDialogBase
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QDialog
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.uiparser:push QDialog ExtractNodesDialogBase
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property orientation
+DEBUG:PyQt5.uic.properties:setting property standardButtons
+DEBUG:PyQt5.uic.uiparser:push QDialogButtonBox button_box
+DEBUG:PyQt5.uic.uiparser:pop widget QDialogButtonBox button_box
+DEBUG:PyQt5.uic.uiparser:new topwidget ExtractNodesDialogBase
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget ExtractNodesDialogBase
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QgsMapLayerComboBox inputLayer
+DEBUG:PyQt5.uic.uiparser:pop widget QgsMapLayerComboBox inputLayer
+DEBUG:PyQt5.uic.uiparser:new topwidget ExtractNodesDialogBase
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QRadioButton radioButton
+DEBUG:PyQt5.uic.uiparser:pop widget QRadioButton radioButton
+DEBUG:PyQt5.uic.uiparser:new topwidget ExtractNodesDialogBase
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget ExtractNodesDialogBase
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QgsMapLayerComboBox outputLayer
+DEBUG:PyQt5.uic.uiparser:pop widget QgsMapLayerComboBox outputLayer
+DEBUG:PyQt5.uic.uiparser:new topwidget ExtractNodesDialogBase
+DEBUG:PyQt5.uic.uiparser:pop widget QDialog ExtractNodesDialogBase
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:uiname is Dialog
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QDialog
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property locale
+DEBUG:PyQt5.uic.uiparser:push QDialog Dialog
+DEBUG:PyQt5.uic.uiparser:push QVBoxLayout verticalLayout
+DEBUG:PyQt5.uic.properties:setting property sizePolicy
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget Dialog
+DEBUG:PyQt5.uic.uiparser:push QgsMapLayerComboBox wInputLayer
+DEBUG:PyQt5.uic.uiparser:pop widget QgsMapLayerComboBox wInputLayer
+DEBUG:PyQt5.uic.uiparser:new topwidget Dialog
+DEBUG:PyQt5.uic.uiparser:push QHBoxLayout horizontalLayout_4
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property checked
+DEBUG:PyQt5.uic.uiparser:push QRadioButton wCreatePolygons
+DEBUG:PyQt5.uic.uiparser:pop widget QRadioButton wCreatePolygons
+DEBUG:PyQt5.uic.uiparser:new topwidget Dialog
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QRadioButton wCreateLines
+DEBUG:PyQt5.uic.uiparser:pop widget QRadioButton wCreateLines
+DEBUG:PyQt5.uic.uiparser:new topwidget Dialog
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property checkable
+DEBUG:PyQt5.uic.uiparser:push QCheckBox wCloseLines
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox wCloseLines
+DEBUG:PyQt5.uic.uiparser:new topwidget Dialog
+DEBUG:PyQt5.uic.uiparser:pop layout QHBoxLayout horizontalLayout_4
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QCheckBox wGroup
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox wGroup
+DEBUG:PyQt5.uic.uiparser:new topwidget Dialog
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.uiparser:push QgsFieldComboBox wGroupField
+DEBUG:PyQt5.uic.uiparser:pop widget QgsFieldComboBox wGroupField
+DEBUG:PyQt5.uic.uiparser:new topwidget Dialog
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QCheckBox wSort1
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox wSort1
+DEBUG:PyQt5.uic.uiparser:new topwidget Dialog
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.uiparser:push QgsFieldComboBox wSortField1
+DEBUG:PyQt5.uic.uiparser:pop widget QgsFieldComboBox wSortField1
+DEBUG:PyQt5.uic.uiparser:new topwidget Dialog
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QCheckBox wSort2
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox wSort2
+DEBUG:PyQt5.uic.uiparser:new topwidget Dialog
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.uiparser:push QgsFieldComboBox wSortField2
+DEBUG:PyQt5.uic.uiparser:pop widget QgsFieldComboBox wSortField2
+DEBUG:PyQt5.uic.uiparser:new topwidget Dialog
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget Dialog
+DEBUG:PyQt5.uic.uiparser:push QHBoxLayout horizontalLayout
+DEBUG:PyQt5.uic.properties:setting property readOnly
+DEBUG:PyQt5.uic.uiparser:push QLineEdit wOutputFileName
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit wOutputFileName
+DEBUG:PyQt5.uic.uiparser:new topwidget Dialog
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton wBrowse
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton wBrowse
+DEBUG:PyQt5.uic.uiparser:new topwidget Dialog
+DEBUG:PyQt5.uic.uiparser:pop layout QHBoxLayout horizontalLayout
+DEBUG:PyQt5.uic.uiparser:push QHBoxLayout horizontalLayout_2
+DEBUG:PyQt5.uic.properties:setting property sizePolicy
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QLabel label_3
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_3
+DEBUG:PyQt5.uic.uiparser:new topwidget Dialog
+DEBUG:PyQt5.uic.properties:setting property sizePolicy
+DEBUG:PyQt5.uic.uiparser:push QComboBox wEncoding
+DEBUG:PyQt5.uic.uiparser:pop widget QComboBox wEncoding
+DEBUG:PyQt5.uic.uiparser:new topwidget Dialog
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QCheckBox wAddResult
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox wAddResult
+DEBUG:PyQt5.uic.uiparser:new topwidget Dialog
+DEBUG:PyQt5.uic.uiparser:pop layout QHBoxLayout horizontalLayout_2
+DEBUG:PyQt5.uic.uiparser:push QHBoxLayout horizontalLayout_3
+DEBUG:PyQt5.uic.properties:setting property sizePolicy
+DEBUG:PyQt5.uic.properties:setting property value
+DEBUG:PyQt5.uic.uiparser:push QProgressBar wProgressBar
+DEBUG:PyQt5.uic.uiparser:pop widget QProgressBar wProgressBar
+DEBUG:PyQt5.uic.uiparser:new topwidget Dialog
+DEBUG:PyQt5.uic.properties:setting property sizePolicy
+DEBUG:PyQt5.uic.properties:setting property standardButtons
+DEBUG:PyQt5.uic.uiparser:push QDialogButtonBox buttonBox
+DEBUG:PyQt5.uic.uiparser:pop widget QDialogButtonBox buttonBox
+DEBUG:PyQt5.uic.uiparser:new topwidget Dialog
+DEBUG:PyQt5.uic.uiparser:pop layout QHBoxLayout horizontalLayout_3
+DEBUG:PyQt5.uic.uiparser:pop layout QVBoxLayout verticalLayout
+DEBUG:PyQt5.uic.uiparser:pop widget QDialog Dialog
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:loading
+DEBUG:root:[]
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:loading
+DEBUG:root:[]
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14670135.33922784030437469 6439489.15832961536943913)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14707070.53980307281017303 6416099.48973505944013596)>
+DEBUG:root:<QgsVectorLayer: 'pntOnRastr' (ogr)>
+DEBUG:root:loading
+DEBUG:root:[]
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14670135.33922784030437469 6439489.15832961536943913)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14707070.53980307281017303 6416099.48973505944013596)>
+DEBUG:root:<QgsVectorLayer: 'pntOnRastr' (ogr)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14670135.33922784030437469 6439489.15832961536943913)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14707070.53980307281017303 6416099.48973505944013596)>
+DEBUG:root:<QgsVectorLayer: 'pntOnRastr' (ogr)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14670135.33922784030437469 6439489.15832961536943913)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14707070.53980307281017303 6416099.48973505944013596)>
+DEBUG:root:[<QgsRasterLayer: '3_10668_Аланап_1992_mosaic' (gdal)>]
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14670135.33922784030437469 6439489.15832961536943913)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14707070.53980307281017303 6416099.48973505944013596)>
+DEBUG:root:[<QgsVectorLayer: 'pntOnRastr' (ogr)>, <QgsRasterLayer: '3_10668_Аланап_1992_mosaic' (gdal)>]
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14670135.33922784030437469 6439489.15832961536943913)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14707070.53980307281017303 6416099.48973505944013596)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14670135.33922784030437469 6439489.15832961536943913)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14707070.53980307281017303 6416099.48973505944013596)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14670135.33922784030437469 6439489.15832961536943913)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14707070.53980307281017303 6416099.48973505944013596)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14670135.33922784030437469 6439489.15832961536943913)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14707070.53980307281017303 6416099.48973505944013596)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14707070.53980307281017303 6416099.48973505944013596)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14707070.53980307281017303 6416099.48973505944013596)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14707070.53980307281017303 6416099.48973505944013596)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14707070.53980307281017303 6416099.48973505944013596)>
+DEBUG:root:loading
+DEBUG:root:<QgsCoordinateReferenceSystem: invalid>
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14707070.53980307281017303 6416099.48973505944013596)>
+DEBUG:root:loading
+DEBUG:root:<QgsCoordinateReferenceSystem: invalid>
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14707070.53980307281017303 6416099.48973505944013596)>
+DEBUG:root:loading
+DEBUG:root:
+DEBUG:root:loading
+DEBUG:root:
+DEBUG:root:loading
+DEBUG:root:
+DEBUG:root:loading
+DEBUG:root:
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:iface mapSettings: <QgsCoordinateReferenceSystem: EPSG:3395>
+DEBUG:root:
+DEBUG:root:loading
+DEBUG:root:iface mapSettings: <QgsCoordinateReferenceSystem: EPSG:3395>
+DEBUG:root:
+DEBUG:root:loading
+DEBUG:root:iface mapSettings: <QgsCoordinateReferenceSystem: EPSG:3395>
+DEBUG:root:loading
+DEBUG:root:iface mapSettings: <QgsCoordinateReferenceSystem: EPSG:3395>
+DEBUG:root:+proj=utm +zone=53 +datum=WGS84 +units=m +no_defs
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:/home/archlex/ЭКСПЕРТИЗЫ/Pashko/minselkhoz/minsehtest.qgz
+DEBUG:root:minsehtest
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:/home/archlex/ЭКСПЕРТИЗЫ/Pashko/minselkhoz/minsehtest.qgz
+DEBUG:root:/home/archlex/ЭКСПЕРТИЗЫ/Pashko/minselkhoz
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:/home/archlex/ЭКСПЕРТИЗЫ/Pashko/minselkhoz/Pic/3_10668_Аланап_1992_mosaic_picr_1.png
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:last rec is 8
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:last rec is 1
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:raster centre is: <QgsPointXY: POINT(14708869.03332187235355377 6408145.42735104262828827)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14704215.74018505774438381 6419761.50855542160570621)>
+DEBUG:root:pnt center: <QgsPointXY: POINT(14706260.97291277348995209 6418037.12218158878386021)>
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:1
+DEBUG:root:2
+DEBUG:root:2
+DEBUG:root:2
+DEBUG:root:loading
+DEBUG:root:1
+DEBUG:root:2
+DEBUG:root:2
+DEBUG:root:loading
+DEBUG:root:1
+DEBUG:root:2
+DEBUG:root:2
+DEBUG:root:loading
+DEBUG:root:1
+DEBUG:root:2
+DEBUG:root:2
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:1
+DEBUG:root:2
+DEBUG:root:2
+DEBUG:root:2
+DEBUG:root:loading
+DEBUG:root:1
+DEBUG:root:2
+DEBUG:root:loading
+DEBUG:root:1
+DEBUG:root:2
+DEBUG:root:loading
+DEBUG:root:1
+DEBUG:root:2
+DEBUG:root:loading
+DEBUG:root:1
+DEBUG:root:2
+DEBUG:root:loading
+DEBUG:root:0
+DEBUG:root:1
+DEBUG:root:2
+DEBUG:root:loading
+DEBUG:root:0
+DEBUG:root:1
+DEBUG:root:2
+DEBUG:root:3
+DEBUG:root:3
+DEBUG:root:4
+DEBUG:root:loading
+DEBUG:root:0
+DEBUG:root:1
+DEBUG:root:2
+DEBUG:root:3
+DEBUG:root:4
+DEBUG:root:loading
+DEBUG:root:0
+DEBUG:root:1
+DEBUG:root:2
+DEBUG:root:3
+DEBUG:root:4
+DEBUG:root:0
+DEBUG:root:1
+DEBUG:root:2
+DEBUG:root:3
+DEBUG:root:4
+DEBUG:root:0
+DEBUG:root:1
+DEBUG:root:2
+DEBUG:root:3
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:Верхнебуреинскийрайон - status Не совпадает
+DEBUG:root:Комсомольскийрайон - status Совпадает
+DEBUG:root:Вяземскийрайон - status Совпадает
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:0
+DEBUG:root:1
+DEBUG:root:2
+DEBUG:root:3
+DEBUG:root:4
+DEBUG:root:0
+DEBUG:root:1
+DEBUG:root:2
+DEBUG:root:3
+DEBUG:root:0
+DEBUG:root:1
+DEBUG:root:2
+DEBUG:root:3
+DEBUG:root:4
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
+DEBUG:root:loading
