@@ -27,10 +27,17 @@ create table points
 
 create table distances
 (
-  id int,
   nomer int,
   dist text,
-  picr text,
-  farmname text,
   districtid int
+);
+
+create table checkdistdistricts
+(
+  id int,
+  name text,
+  regionid text,
+  regionname text,
+  picname text,
+  farmname
 );

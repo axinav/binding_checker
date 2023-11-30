@@ -293,8 +293,8 @@ class PointCheckerWidget(QtWidgets.QWidget):
             farmname = self.rastrNameLineEdit.text()
             query = QSqlQuery()
             queryStr = """INSERT INTO checkeddistricts
-            (id, name, regionid, regionname, picname)
-            VALUES (:id, :name, :regionid, :regionname, :picname)"""
+            (id, name, regionid, regionname, picname, farmname)
+            VALUES (:id, :name, :regionid, :regionname, :picname, :farmname)"""
             query.prepare(queryStr)
             query.bindValue(':id', id)
             query.bindValue(':name', name)
