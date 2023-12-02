@@ -5,7 +5,7 @@ from typing import Any
 from qgis.PyQt import QtGui, QtWidgets
 from qgis.PyQt.QtCore import QVariant, Qt
 from qgis.PyQt.QtSql import QSqlQuery, QSqlQueryModel
-from qgis.core import QgsCoordinateReferenceSystem, QgsCoordinateTransform, QgsFeature, QgsField, QgsGeometry, QgsProject, QgsVectorLayer
+from qgis.core import QgsCoordinateReferenceSystem, QgsCoordinateTransform, QgsFeature, QgsField, QgsGeometry, QgsPalLayerSettings, QgsProject, QgsVectorLayer, QgsVectorLayerSimpleLabeling
 from qgis.gui import QgisInterface, QgsMapCanvas
 
 from get_unique_pnts import getUniquePnts
@@ -79,6 +79,11 @@ class DistCheckerWidget(QtWidgets.QWidget):
                 "attr": numbers
                 }
         self.pntLayer = self.createMemLayer(**params)
+        pal = QgsPalLayerSettings()
+        pal.fieldName = 'name'
+        pal.enabled = True
+        self.pntLayer.setLabelsEnabled(True)
+        self.pntLayer.setLabeling(QgsVectorLayerSimpleLabeling(pal))
         QgsProject.instance().addMapLayer(self.checkedLayer)
         self.canvas.setLayers([self.rastrLayerCB.currentLayer(),
                                self.sourceLayer, self.pntLayer])
