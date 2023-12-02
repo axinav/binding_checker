@@ -131,9 +131,9 @@ class DistrDist:
 
     def getStatusStr(self):
         if self.status == 1:
-            return 'Совпадает'
+            return ''
         else:
-            return 'Не совпадает'
+            return 'Не '
 
     def getDistsData4Report(self):
         data = []
@@ -176,7 +176,7 @@ class Region:
         data =[]
         i =1
         for dis in self.distDistricts:
-            data.append([str(i), dis.fullName(), dis.farmname, dis.getStatusStr()])
+            data.append([str(i), dis.fullName(), dis.farmname, f"Расхождения {dis.getStatusStr()} превышают погрешность определения координат"])
             i+=1
         return data    
     def getDistrData4Report(self):

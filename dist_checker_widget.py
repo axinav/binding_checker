@@ -1,14 +1,17 @@
 
 
 from pathlib import Path
+import os
 from typing import Any
 from qgis.PyQt import QtGui, QtWidgets
 from qgis.PyQt.QtCore import QVariant, Qt
 from qgis.PyQt.QtSql import QSqlQuery, QSqlQueryModel
 from qgis.core import QgsCoordinateReferenceSystem, QgsCoordinateTransform, QgsFeature, QgsField, QgsGeometry, QgsPalLayerSettings, QgsProject, QgsVectorLayer, QgsVectorLayerSimpleLabeling
 from qgis.gui import QgisInterface, QgsMapCanvas
+from .create_report import createAppendix21, createAppendix22
 
-from get_unique_pnts import getUniquePnts
+from .get_unique_pnts import getUniquePnts
+from .my_data_types import Region
 
 
 class DistCheckerWidget(QtWidgets.QWidget):
@@ -42,6 +45,9 @@ class DistCheckerWidget(QtWidgets.QWidget):
         self.preparePushBtn.setGeometry(180,350,60,22)
         self.preparePushBtn.clicked.connect(self.prepareLayers)
 
+        self.preparePushBtn = QtWidgets.QPushButton('Report', self)
+        self.preparePushBtn.setGeometry(210,350,60,22)
+        self.preparePushBtn.clicked.connect(self.createReport)
 
 
     def regionCBoxChanged(self, index):
@@ -148,6 +154,21 @@ class DistCheckerWidget(QtWidgets.QWidget):
     def saveImage(self, canvas, filename):
         pixmap = QtGui.QPixmap(400,260)
         canvas.saveAsImage(filename, pixmap, 'png')
+    def createReport(self):
+
+        reportsDir = os.path.join(self.projectDir,'Reports')
+        regionid = self.regionModel.record(self.regionCBox.currentIndex()).value(0)
+        regionname = self.regionModel.record(self.regionCBox.currentIndex()).value(2)
+        region = Region(regionname,regionid)
+        regRepotsDir = os.path.join(reportsDir,regionname)
+        if not os.path.exists(regRepotsDir):
+            os.mkdir(regRepotsDir)
+        reportFileName =f"_{regionname}_Приложение_2_векторизация данных ГФДЗ.docx"
+        reportFullName = os.path.join(regRepotsDir,reportFileName)
+        createAppendix21(region,reportFullName)
+        reportFileName =f"_{regionname}_Таблица к Приложению_2_векторизация данных ГФДЗ.docx"
+        reportFullName = os.path.join(regRepotsDir,reportFileName)
+        createAppendix22(region,reportFullName)
 
     def getXform3395(self, layer):
         crsDest = QgsCoordinateReferenceSystem("EPSG:3395")
